@@ -1,0 +1,35 @@
+@import "message";
+
+.cookieconsent {
+    width: 100%;
+    box-sizing: border-box;
+    font-family: arial;
+    color: #000;
+
+    @import "checkbox";
+    @import "popup";
+    @import "cookiebar";
+    @import "button";
+
+    .cookieconsent__icon {
+        &.cookieconsent__icon--arrow-down {
+            &:before {
+                content: url("data:image/svg+xml;base64,PHN2ZyB4bWxucz0iaHR0cDovL3d3dy53My5vcmcvMjAwMC9zdmciIHdpZHRoPSIyNCIgaGVpZ2h0PSIyNCIgeG1sOnNwYWNlPSJwcmVzZXJ2ZSI+PHBhdGggZD0iTTcuNDEgOC41OSAxMiAxMy4xN2w0LjU5LTQuNThMMTggMTBsLTYgNi02LTYgMS40MS0xLjQxeiIvPjxwYXRoIGZpbGw9Im5vbmUiIGQ9Ik0wIDBoMjR2MjRIMFYweiIvPjwvc3ZnPg==");
+            }
+        }
+
+        &.cookieconsent__icon--arrow-right {
+            &:before {
+                content: url("data:image/svg+xml;base64,PHN2ZyB4bWxucz0iaHR0cDovL3d3dy53My5vcmcvMjAwMC9zdmciIHdpZHRoPSIyNCIgaGVpZ2h0PSIyNCIgeG1sOnNwYWNlPSJwcmVzZXJ2ZSI+PHBhdGggZD0iTTguNTkgMTYuNTkgMTMuMTcgMTIgOC41OSA3LjQxIDEwIDZsNiA2LTYgNi0xLjQxLTEuNDF6Ii8+PHBhdGggZmlsbD0ibm9uZSIgZD0iTTAgMGgyNHYyNEgwVjB6Ii8+PC9zdmc+");
+            }
+        }
+    }
+
+    * {
+        box-sizing: inherit;
+    }
+
+    .cookieconsent__textbold {
+        font-weight: bold;
+    }
+}

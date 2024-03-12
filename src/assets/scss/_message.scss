@@ -1,0 +1,40 @@
+.cookieconsent-block {
+    display: none;
+}
+
+.cookieconsent-message {
+    display: block;
+    border: 2px dashed #ededed;
+    padding: 20px;
+}
+
+.cookieconsent-statistics-ok {
+    .cookieconsent-block--statistics {
+        display: block;
+    }
+
+    .cookieconsent-message--statistics {
+        display: none;
+    }
+}
+
+.cookieconsent-marketing-ok {
+    .cookieconsent-block--marketing {
+        display: block;
+    }
+
+    .cookieconsent-message--marketing {
+        display: none;
+    }
+}
+
+.cookieconsent-preferences-ok {
+    .cookieconsent-block--preferences {
+        display: block;
+    }
+
+    .cookieconsent-message--preferences {
+        display: none;
+    }
+}
+

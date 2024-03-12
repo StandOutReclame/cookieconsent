@@ -1,0 +1,36 @@
+.cookieconsent__button {
+    border: none;
+    border-radius: 2.7px;
+    padding: 9px 12px;
+    color: #FFF;
+    cursor: pointer;
+    flex: 0 0 auto;
+    font-size: inherit;
+
+    &.cookieconsent__button--accept {
+        background-color: #66A121;
+    }
+
+    &.cookieconsent__button--refuse {
+        background-color: #7F92A6;
+    }
+
+    @media (min-width: 680px) {
+        padding: 13px 16px;
+        border: 2px solid transparent;
+        transition: all 350ms;
+
+
+        &.cookieconsent__button--accept {
+            &:hover {
+                background-color: darken(#66A121, 5%);
+            }
+        }
+
+        &.cookieconsent__button--refuse {
+            &:hover {
+                background-color: darken(#7F92A6, 5%);
+            }
+        }
+    }
+}
